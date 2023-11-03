@@ -1,0 +1,69 @@
+/* custom-styles.css */
+
+/* Style the <header> element */
+header {
+  color: #fff; /* Change to your desired text color */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Style the <h2> element inside <header> */
+header h2 {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+/* Style the <p> elements inside <header> */
+header p {
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.4; /* Adjust line height as needed */
+}
+
+/* Style the image inside <header> */
+header img {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.video-content {
+  display: flex;
+  position: relative;
+}
+
+/* Style the video element */
+.video-content video {
+  position: absolute;
+  width: 80%; /* Adjust the video width as needed */
+  height: auto; /* Automatically calculate height to maintain aspect ratio */
+  object-fit: cover;
+}
+
+/* Style the content */
+.video-content .content {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width:400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 20px;
+}
+
+.tile {
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin: 50px;
+  display: inline-block;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Style for images inside the tiles */
+.tile img {
+  max-width: 100px;
+}
+
+/* Style for text inside the tiles */
+.tile div {
+  margin-top: 10px;
+  font-weight: bold;
+}

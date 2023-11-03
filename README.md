@@ -1,7 +1,5 @@
 # UI UX Practical
 
-## Live Demo
-Access the live demo of the React JS image gallery [here](https://fresher-react-js.vercel.app/).
 
 ## Project Sample Desktop
 ![Project Sample](/image/sample%201.png)

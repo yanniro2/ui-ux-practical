@@ -30,4 +30,4 @@ bun dev
 
 2. View Live:
    ```sh
-https://ui-ux-practical.vercel.app/
+    https://ui-ux-practical.vercel.app/
